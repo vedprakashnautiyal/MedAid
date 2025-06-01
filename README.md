@@ -7,6 +7,7 @@
 - [Features](#features)
 - [Technology Stack](#technology-used)
 - [Project Setup](#project-setup)
+- [References](References.md)
 
 ---
 
