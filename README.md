@@ -1,6 +1,6 @@
 <h1 align="center"><strong>MedAid 🩺 <h6 align="center">A Bi-Modal Multi-Agent Medical Assistant</h6></strong></h1>
 
-# Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Flow Chart](#flowchart)
@@ -45,7 +45,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 🔹 **UI**: HTML, CSS, JS 🌐  
 🔹 **Deployment**: Docker 🛠️   -->
 
-## Features  `<a name="features"></a>`
+## Features  `<a name="features"> </a>`
 
 - **Multi-Agent Architecture** : Specialized agents to handle diagnosis, information retrieval, reasoning, image analysis and more
 - 🔍 **Advanced Agentic RAG Retrieval System** :
