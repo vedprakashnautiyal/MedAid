@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Flow Chart](#flowchart "flowchart")
-- [Key Features](#features)
-- [Tech Stack](technology-stack)
+- [Overview](overview)
+- [Flow Chart](flowchart)
+- [Key Features](features)
+- [Tech Stack](tech-stack)
 - [Installation and Setup](setup)
 
 ---
 
-## Overview {overview}
+## Overview
 
 **MedAid** is an **AI-powered assistant** designed to assist with **medical diagnosis, research, and patient interactions**.
 
@@ -18,32 +18,11 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## Flow Chart  {flowchart}
+## Flow Chart
 
 ![Flowchart](assets/flowchart.svg)
 
 ---
-
-<!-- ## 🌟 Key Features  <a name="key-features"></a>
-✅ **Multi-Agent System** – Separate agents handle different tasks (diagnosis, retrieval, reasoning, etc.).  
-✅ **RAG-based Retrieval** – Uses Qdrant for vector search & hybrid retrieval techniques.  
-✅ **Medical Image Analysis** – Supports **brain tumor segmentation, chest X-ray disease detection, and skin lesion classification**.  
-✅ **Web Search Agent** – Fetches the latest medical research when required.  
-✅ **Confidence Score Check** – Ensures high accuracy with log probability-based verification.  
-✅ **Speech-to-Text & Text-to-Speech** – Uses **Eleven Labs API** for voice interactions.  
-✅ **Human-in-the-Loop Verification** – Medical professionals validate the AI’s results before final output.  
-✅ **Intuitive UI** – Built for seamless user experience.  
-
----
-
-## 🛠️ Tech Stack  <a name="tech-stack"></a>
-🔹 **Backend**: FastAPI 🚀  
-🔹 **Multi-Agent Orchestration**: LangGraph + LangChain 🤖  
-🔹 **Vector Database**: Qdrant (for retrieval-augmented generation) 🔍  
-🔹 **Medical Image Analysis**: Computer vision models (Brain Tumor - Semantic Segmentation, Chest X-ray - Object Detection, Skin Lesion - Classification) 🏥  
-🔹 **Speech Processing**: Eleven Labs API 🎙️  
-🔹 **UI**: HTML, CSS, JS 🌐  
-🔹 **Deployment**: Docker 🛠️   -->
 
 ## Features {features}
 
@@ -73,7 +52,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## Technology Used  {technology-stack}
+## Technology Used {tech-stack}
 
 | Component                          | Technologies                                    |
 | ---------------------------------- | ----------------------------------------------- |
