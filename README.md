@@ -5,7 +5,7 @@
 - [Overview](#overview)
 - [Flow Chart](#flow-chart)
 - [Features](#features)
-- [Technology Stack](#technology-stack)
+- [Technology Stack](#technology-used)
 - [Project Setup](#project-setup)
 
 ---
