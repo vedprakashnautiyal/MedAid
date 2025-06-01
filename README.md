@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-- [Overview](overview)
-- [Flow Chart](flowchart)
-- [Key Features](features)
-- [Tech Stack](tech-stack)
-- [Installation and Setup](setup)
+- [Overview](#overview)
+- [Flow Chart](#flowchart)
+- [Key Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation and Setup](#setup)
 
 ---
 
