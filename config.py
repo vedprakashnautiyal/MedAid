@@ -76,6 +76,9 @@ class RAGConfig:
 class MedicalCVConfig:
     def __init__(self):
         self.chest_xray_model_path = "./agents/image_analysis_agent/chest_xray_agent/models/covid_chest_xray_model.pth"
+        self.chest_xray_model_path = "./agents/image_analysis_agent/chest_xray_agent/models/covid_chest_xray_model.pth"
+        self.skin_lesion_model_path = "./agents/image_analysis_agent/skin_lesion_agent/models/checkpointN25_.pth.tar"
+        self.skin_lesion_segmentation_output_path = "./uploads/skin_lesion_output/segmentation_plot.png"
         self.llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.1,google_api_key=os.getenv("GOOGLE_API_KEY"))
 
 class SpeechConfig:

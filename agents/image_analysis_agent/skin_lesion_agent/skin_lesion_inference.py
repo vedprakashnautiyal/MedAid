@@ -131,7 +131,7 @@ class SkinLesionSegmentation:
 
 
 # # Example Usage
-# if __name__ == "__main__":
-#     segmenter = SkinLesionSegmentation(model_path="./models/skin_lesion_segmentation.pth")
-#     segmented_image = segmenter.predict("./images/ISIC_0020840.jpg", "./segmentation_plot.png")
-#     logger.info(f"Segmentation completed. Output saved at: {segmented_image}")
+if __name__ == "__main__":
+    segmenter = SkinLesionSegmentation(model_path="./models/skin_lesion_segmentation.pth")
+    segmented_image = segmenter.predict("./images/ISIC_0020840.jpg", "./segmentation_plot.png")
+    logger.info(f"Segmentation completed. Output saved at: {segmented_image}")
