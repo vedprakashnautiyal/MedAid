@@ -1,23 +1,16 @@
-<h1 align="center"><strong>MedAid 🩺 <h6 align="center">A Bi-Modal Multi-Agent Medical Assistance for Doctors and Researchers</h6></strong></h1>
+<h1 align="center"><strong>MedAid 🩺 <h6 align="center">A Bi-Modal Multi-Agent Medical Assistant</h6></strong></h1>
 
 ## 📚 Table of Contents
 
 - [Overview](#overview)
-- [Flow Chart](#technical-flowchart)
-- [Key Features](#key-features)
+- [Flow Chart](#flowchart)
+- [Key Features](#features)
 - [Tech Stack](#technology-stack)
 - [Installation and Setup](#installation-setup)
-  - [Using Docker](#docker-setup)
-  - [Manual Installation](#manual-setup)
-- [Usage](#usage)
-- [Contributions](#contributions)
-- [License](#license)
-- [Citing](#citing)
-- [Contact](#contact)
 
 ---
 
-## 📌 Overview `<a name="overview"></a>`
+## Overview `<a name="overview"></a>`
 
 **MedAid** is an **AI-powered assistant** designed to assist with **medical diagnosis, research, and patient interactions**.
 
@@ -25,7 +18,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## 🛡️ Technical Flow Chart  `<a name="flowchart"></a>`
+## Flow Chart  `<a name="flowchart"></a>`
 
 ![Flowchart](assets/flowchart.svg)
 
@@ -52,7 +45,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 🔹 **UI**: HTML, CSS, JS 🌐  
 🔹 **Deployment**: Docker 🛠️   -->
 
-## ✨ Key Features  `<a name="key-features"></a>`
+## Features  `<a name="features"></a>`
 
 - **Multi-Agent Architecture** : Specialized agents to handle diagnosis, information retrieval, reasoning, image analysis and more
 - 🔍 **Advanced Agentic RAG Retrieval System** :
@@ -78,42 +71,35 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 - ⚔️ **Input & Output Guardrails** : Ensures safe, unbiased, and reliable medical responses while filtering out harmful or misleading content
 - 💻 **Intuitive User Interface** : Designed for healthcare professionals with minimal technical expertise
 
-> [!NOTE]Upcoming features:
->
-> 1. Brain Tumor Medical Computer Vision model integration.
-> 2. Open to suggestions and contributions.
+---
+
+## Technology Used  `<a name="technology-stack"></a>`
+
+| Component                          | Technologies                                    |
+| ---------------------------------- | ----------------------------------------------- |
+| 🔹**Backend**                | FastAPI                                         |
+| 🔹**Agent Orchestration**    | LangGraph                                       |
+| 🔹**Document Parsing**       | Docling                                         |
+| 🔹**Knowledge Storage**      | Qdrant Vector Database                          |
+| 🔹**Medical Image Analysis** | Computer Vision Models                          |
+|                                    | • Chest X-Ray: Image Classification (PyTorch)  |
+|                                    | • Skin Lesion: Semantic Segmentation (PyTorch) |
+| 🔹**Guardrails**             | LangChain                                       |
+| 🔹**Speech Processing**      | Eleven Labs API                                 |
+| 🔹**Frontend**               | HTML, CSS, JavaScript                           |
 
 ---
 
-## 🛠️ Technology Stack  `<a name="technology-stack"></a>`
+## Project Setup  `<a name="setup"></a>`
 
-| Component                       | Technologies                                    |
-| ------------------------------- | ----------------------------------------------- |
-| 🔹**Backend Framework**   | FastAPI                                         |
-| 🔹**Agent Orchestration** | LangGraph                                       |
-| 🔹**Document Parsing**    | Docling                                         |
-| 🔹**Knowledge Storage**   | Qdrant Vector Database                          |
-| 🔹**Medical Imaging**     | Computer Vision Models                          |
-|                                 | • Brain Tumor: Object Detection (PyTorch)      |
-|                                 | • Chest X-ray: Image Classification (PyTorch)  |
-|                                 | • Skin Lesion: Semantic Segmentation (PyTorch) |
-| 🔹**Guardrails**          | LangChain                                       |
-| 🔹**Speech Processing**   | Eleven Labs API                                 |
-| 🔹**Frontend**            | HTML, CSS, JavaScript                           |
-| 🔹**Deployment**          | Docker, GitHub Actions CI/CD                    |
-
----
-
-## 🚀 Project Setup  `<a name="setup"></a>`
-
-## 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/vedprakashnautiyal/MedAid.git
 cd MedAid
 ```
 
-## 2️⃣ Create Environment File
+### 2️⃣ Create Environment File
 
 - Create a `.env` file in the root directory and add API keys or other environment variables:
 
@@ -131,7 +117,7 @@ HUGGINGFACE_TOKEN=
 GOOGLE_API_KEY=
 ```
 
-## 3️⃣ Create & Activate Virtual Environment
+### 3️⃣ Create & Activate Virtual Environment
 
 ```bash
 python -m venv .medaid
@@ -139,7 +125,7 @@ source .medaid/bin/activate  # For Mac/Linux
 .medaid\Scripts\activate     # For Windows  
 ```
 
-## 4️⃣ Install Dependencies
+### 4️⃣ Install Dependencies
 
 > **[NOTE]**
 > ffmpeg is required for speech service to work.
@@ -152,7 +138,7 @@ winget install ffmpeg
 pip install -r requirements.txt  
 ```
 
-## 5️⃣ Ingest Data into Vector DB
+### 5️⃣ Ingest Data into Vector DB
 
 - To ingest one document at a time:
 
@@ -166,7 +152,7 @@ python ingest_rag_data.py --file ./data/raw/brain_tumors_ucni.pdf
 python ingest_rag_data.py --dir ./data/raw
 ```
 
-## 6️⃣ Run the Project
+### 6️⃣ Run the Project
 
 ```bash
 python app.py
