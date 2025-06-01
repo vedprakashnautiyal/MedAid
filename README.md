@@ -12,8 +12,6 @@
 
 ## Overview 
 
-`<a name="overview"></a>`
-
 **MedAid** is an **AI-powered assistant** designed to assist with **medical diagnosis, research, and patient interactions**.
 
 This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop validation for AI based medical diagnosis and research.
