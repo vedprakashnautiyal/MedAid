@@ -10,7 +10,9 @@
 
 ---
 
-## Overview `<a name="overview"></a>`
+## Overview 
+
+`<a name="overview"></a>`
 
 **MedAid** is an **AI-powered assistant** designed to assist with **medical diagnosis, research, and patient interactions**.
 
