@@ -10,7 +10,7 @@
 
 ---
 
-## Overview
+## Overview `<a name="overview"></a>`
 
 **MedAid** is an **AI-powered assistant** designed to assist with **medical diagnosis, research, and patient interactions**.
 
@@ -18,7 +18,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## Flow Chart
+## Flow Chart {flowchart}
 
 ![Flowchart](assets/flowchart.svg)
 
