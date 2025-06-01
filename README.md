@@ -26,46 +26,41 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ## Features
 
-- **Multi-Agent Architecture** : Specialized agents to handle diagnosis, information retrieval, reasoning, image analysis and more
-- 🔍 **Advanced Agentic RAG Retrieval System** :
-
-  - Docling based parsing to extract text, tables, and images from PDFs.
-  - Embedding markdown formatted text, tables and LLM based image summaries.
-  - LLM based semantic chunking with structural boundary awareness.
-  - LLM based query expansion with related medical domain terms.
-  - Qdrant hybrid search combining BM25 sparse keyword search along with dense embedding vector search.
-  - HuggingFace Cross-Encoder based reranking of retrieved document chunks for accurate LLM reponses.
-  - Input-output guardrails to ensure safe and relevant responses.
-  - Links to source documents and images present in reference document chunks provided with reponse.
-  - Confidence-based agent-to-agent handoff between RAG and Web Search to prevent hallucinations.
-- 🏥 **Medical Imaging Analysis**
-
-  - Brain Tumor Detection (TBD)
-  - Chest X-ray Disease Classification
-  - Skin Lesion Segmentation
-- 🌐 **Real-time Research Integration** : Web search agent that retrieves the latest medical research papers and findings
-- 📊 **Confidence-Based Verification** : Log probability analysis ensures high accuracy in medical recommendations
-- 🎙️ **Voice Interaction Capabilities** : Seamless speech-to-text and text-to-speech powered by Eleven Labs API
-- 👩‍⚕️ **Expert Oversight System** : Human-in-the-loop verification by medical professionals before finalizing outputs
-- ⚔️ **Input & Output Guardrails** : Ensures safe, unbiased, and reliable medical responses while filtering out harmful or misleading content
-- 💻 **Intuitive User Interface** : Designed for healthcare professionals with minimal technical expertise
+* **Modular Multi-Agent System** : Specialized agents for diagnosis, retrieval, reasoning, and image analysis.
+* **Agentic RAG Pipeline** :
+  * PDF parsing via Docling (text, tables, images)
+  * Structural-aware semantic chunking
+  * Domain-specific query expansion
+  * Hybrid search with BM25 + dense vectors (Qdrant)
+  * Cross-encoder reranking for relevance
+  * Guardrails and source linking
+  * Confidence-based switch to Web Search to reduce hallucinations
+* **Medical Imaging Module** :
+  * COVID-19 chest X-ray classification
+  * Skin lesion segmentation
+* **Live Research Agent** : Real-time retrieval of current medical literature.
+* **Confidence Scoring** : Log-probability–based accuracy verification.
+* **Voice Interface** : Speech-to-text and TTS via Eleven Labs API.
+* **Expert Review** : Human-in-the-loop validation by medical professionals.
+* **Safety Filters** : Robust I/O guardrails for trustworthy and ethical responses.
+* **User-Friendly UI** : Accessible design tailored for medical practitioners.
 
 ---
 
 ## Technology Used
 
-| Component                          | Technologies                                    |
-| ---------------------------------- | ----------------------------------------------- |
-| 🔹**Backend**                | FastAPI                                         |
-| 🔹**Agent Orchestration**    | LangGraph                                       |
-| 🔹**Document Parsing**       | Docling                                         |
-| 🔹**Knowledge Storage**      | Qdrant Vector Database                          |
-| 🔹**Medical Image Analysis** | Computer Vision Models                          |
-|                                    | • Chest X-Ray: Image Classification (PyTorch)  |
-|                                    | • Skin Lesion: Semantic Segmentation (PyTorch) |
-| 🔹**Guardrails**             | LangChain                                       |
-| 🔹**Speech Processing**      | Eleven Labs API                                 |
-| 🔹**Frontend**               | HTML, CSS, JavaScript                           |
+| Component                        | Technologies                                    |
+| -------------------------------- | ----------------------------------------------- |
+| **Backend**                | FastAPI                                         |
+| **Agent Orchestration**    | LangGraph                                       |
+| **Document Parsing**       | Docling                                         |
+| **Knowledge Storage**      | Qdrant Vector Database                          |
+| **Medical Image Analysis** | Computer Vision Models                          |
+|                                  | • Chest X-Ray: Image Classification (PyTorch)  |
+|                                  | • Skin Lesion: Semantic Segmentation (PyTorch) |
+| **Guardrails**             | LangChain                                       |
+| **Speech Processing**      | Eleven Labs API                                 |
+| **Frontend**               | HTML, CSS, JavaScript                           |
 
 ---
 
