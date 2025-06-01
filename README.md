@@ -3,14 +3,14 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Flow Chart](#flowchart)
+- [Flow Chart](#flowchart "flowchart")
 - [Key Features](#features)
-- [Tech Stack](#technology-stack)
-- [Installation and Setup](#installation-setup)
+- [Tech Stack](technology-stack)
+- [Installation and Setup](setup)
 
 ---
 
-## Overview `<a name="overview"></a>`
+## Overview {overview}
 
 **MedAid** is an **AI-powered assistant** designed to assist with **medical diagnosis, research, and patient interactions**.
 
@@ -18,7 +18,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## Flow Chart  `<a name="flowchart"></a>`
+## Flow Chart  {flowchart}
 
 ![Flowchart](assets/flowchart.svg)
 
@@ -45,7 +45,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 🔹 **UI**: HTML, CSS, JS 🌐  
 🔹 **Deployment**: Docker 🛠️   -->
 
-## Features  `<a name="features"> </a>`
+## Features {features}
 
 - **Multi-Agent Architecture** : Specialized agents to handle diagnosis, information retrieval, reasoning, image analysis and more
 - 🔍 **Advanced Agentic RAG Retrieval System** :
@@ -73,7 +73,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## Technology Used  `<a name="technology-stack"></a>`
+## Technology Used  {technology-stack}
 
 | Component                          | Technologies                                    |
 | ---------------------------------- | ----------------------------------------------- |
@@ -90,7 +90,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## Project Setup  `<a name="setup"></a>`
+## Project Setup {setup}
 
 ### 1️⃣ Clone the Repository
 
