@@ -1,6 +1,6 @@
 <h1 align="center"><strong>MedAid 🩺 <h6 align="center">A Bi-Modal Multi-Agent Medical Assistant</h6></strong></h1>
 
-## 📚 Table of Contents
+# Table of Contents
 
 - [Overview](#overview)
 - [Flow Chart](#flowchart)
