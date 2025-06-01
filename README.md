@@ -4,9 +4,9 @@
 
 - [Overview](#overview)
 - [Flow Chart](#flowchart)
-- [Key Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation and Setup](#setup)
+- [Features](#features)
+- [Technology Stack](#tech-stack)
+- [Project Setup](#setup)
 
 ---
 
@@ -18,7 +18,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## Flow Chart {flowchart}
+## Flow Chart
 
 ![Flowchart](assets/flowchart.svg)
 
