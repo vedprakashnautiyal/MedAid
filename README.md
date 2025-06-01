@@ -3,10 +3,10 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Flow Chart](#flowchart)
+- [Flow Chart](#flow-chart)
 - [Features](#features)
-- [Technology Stack](#tech-stack)
-- [Project Setup](#setup)
+- [Technology Stack](#technology-stack)
+- [Project Setup](#project-setup)
 
 ---
 
@@ -24,7 +24,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## Features {features}
+## Features
 
 - **Multi-Agent Architecture** : Specialized agents to handle diagnosis, information retrieval, reasoning, image analysis and more
 - 🔍 **Advanced Agentic RAG Retrieval System** :
@@ -52,7 +52,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## Technology Used {tech-stack}
+## Technology Used
 
 | Component                          | Technologies                                    |
 | ---------------------------------- | ----------------------------------------------- |
@@ -69,7 +69,7 @@ This project integrates LLMs, CV Models, RAG, Web Search and Human-in-the-loop v
 
 ---
 
-## Project Setup {setup}
+## Project Setup
 
 ### 1️⃣ Clone the Repository
 
